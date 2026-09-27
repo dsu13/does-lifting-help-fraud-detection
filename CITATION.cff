@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "Does Lifting Help Fraud Detection? Code"
+abstract: >-
+  Code for the paper "Does Lifting Help Fraud Detection? A Higher-order Benchmark and a
+  Three-regime Study of Camouflaged Fraud": it builds the fraud graphs and their
+  candidate-cell substrate, trains the baselines and the learnable-lifting model, runs the
+  synthetic D(mu) study and the temporal crossover, and writes the paper's tables.
+authors:
+  - family-names: "Saldaña-Ulloa"
+    given-names: "Diego"
+    orcid: "https://orcid.org/0009-0004-1428-6625"
+  - family-names: "Torres Campos"
+    given-names: "Jose Daniel"
+    orcid: "https://orcid.org/0009-0001-0294-2275"
+license: MIT
+keywords:
+  - topological deep learning
+  - learnable liftings
+  - graph fraud detection
+  - class imbalance
+preferred-citation:
+  type: generic
+  title: "Does Lifting Help Fraud Detection? A Higher-order Benchmark and a Three-regime Study of Camouflaged Fraud"
+  authors:
+    - family-names: "Saldaña-Ulloa"
+      given-names: "Diego"
+      orcid: "https://orcid.org/0009-0004-1428-6625"
+    - family-names: "Torres Campos"
+      given-names: "Jose Daniel"
+      orcid: "https://orcid.org/0009-0001-0294-2275"
+  publisher:
+    name: "SSRN"
+  date-published: 2026-09-01
+  year: 2026
+  doi: "10.2139/ssrn.7500858"
+  url: "https://ssrn.com/abstract=7500858"

@@ -1,0 +1,162 @@
+{
+  "D_temporal_gate": {
+    "1": {
+      "mean": 0.021419574314387593,
+      "std": 0.0012173563198298167,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.021198,
+        0.020328,
+        0.022733
+      ],
+      "auc_mean": 0.706522807477666,
+      "auc_std": 0.004725929673482087,
+      "aucs": [
+        0.70634,
+        0.701891,
+        0.711338
+      ],
+      "active_cells_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.094682,
+        0.092796,
+        0.095552
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_epoch_per_seed": [
+        130.0,
+        125.0,
+        120.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "B_cone_cols": {
+    "1": {
+      "mean": 0.020116478667066243,
+      "std": 0.0018169212068958112,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.019175,
+        0.018964,
+        0.022211
+      ],
+      "auc_mean": 0.6955344622494138,
+      "auc_std": 0.0027529977429840793,
+      "aucs": [
+        0.692434,
+        0.696475,
+        0.697694
+      ],
+      "selected_epoch_per_seed": [
+        120.0,
+        125.0,
+        125.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "D_cone_cells": {
+    "1": {
+      "mean": 0.021404710230796157,
+      "std": 0.0007308583630557169,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.02156,
+        0.020609,
+        0.022046
+      ],
+      "auc_mean": 0.7056147880095219,
+      "auc_std": 0.0037942850358197926,
+      "aucs": [
+        0.708403,
+        0.701294,
+        0.707148
+      ],
+      "active_cells_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.102513,
+        0.097895,
+        0.096971
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_epoch_per_seed": [
+        160.0,
+        135.0,
+        120.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "_config": {
+    "dataset": "dgraph",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "levels": [
+      1.0
+    ],
+    "epochs": 300,
+    "window": 17.0,
+    "window_frac": 0.02,
+    "window_rounded_to_steps": true,
+    "lam_c": 1.0,
+    "frac_cells_split": 0.873944778528475,
+    "frac_cells_spanning_time": 0.775525858936574,
+    "temporal_arms_degenerate": false,
+    "n_temporal_cells": 173383,
+    "n_cone_cells": 167240,
+    "n_cones_before_cap": 167240,
+    "frac_nodes_with_cone": 0.5086333333333334,
+    "cone_column_std": [
+      0.584614,
+      0.668352,
+      1.120631,
+      5.525052,
+      5.209568
+    ],
+    "split_protocol": {
+      "0": "saved:stratified",
+      "1": "saved:stratified",
+      "2": "saved:stratified"
+    },
+    "temporal_split": false,
+    "with_temporal_gnn": false
+  }
+}

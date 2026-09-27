@@ -1,0 +1,14 @@
+{
+  "name": "ieee_cis",
+  "num_nodes": 590540,
+  "num_labeled": 590540,
+  "fraud_rate": 0.03499000914417313,
+  "homo": {
+    "num_edges": 1285149,
+    "node_homophily": 0.9459306001663208,
+    "fraud_neighbor_heterophily": 0.8101046681404114
+  },
+  "candidates": {
+    "mean_fraud_purity": 0.20918922948723356
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "dgraph",
+  "num_nodes": 150000,
+  "num_labeled": 85445,
+  "fraud_rate": 0.010263912458306513,
+  "homo": {
+    "num_edges": 121826,
+    "node_homophily": 0.9848566651344299,
+    "fraud_neighbor_heterophily": 0.9292275309562683
+  },
+  "candidates": {
+    "mean_fraud_purity": 0.011802572457352164
+  }
+}

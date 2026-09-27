@@ -1,0 +1,120 @@
+{
+  "D_temporal_cells": {
+    "1": {
+      "mean": 0.9378572000786751,
+      "std": 0.007753946060013753,
+      "std_ddof": 1,
+      "n": 8,
+      "n_failed": 0,
+      "aps": [
+        0.940574,
+        0.934077,
+        0.931993,
+        0.932477,
+        0.942803,
+        0.948192,
+        0.926367,
+        0.946375
+      ],
+      "auc_mean": 0.9818046753431815,
+      "auc_std": 0.0028871959127086764,
+      "aucs": [
+        0.982485,
+        0.980858,
+        0.978046,
+        0.980598,
+        0.983147,
+        0.985051,
+        0.978327,
+        0.985925
+      ],
+      "active_cells_per_seed": [
+        29929.0,
+        9834.0,
+        502.0,
+        10007.0,
+        19892.0,
+        6391.0,
+        2492.0,
+        39290.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.267963,
+        0.246541,
+        0.213411,
+        0.227335,
+        0.249786,
+        0.234586,
+        0.229881,
+        0.260878
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.964796,
+        0.80473,
+        0.128163,
+        0.90319,
+        0.934543,
+        0.79978,
+        0.388339,
+        0.975798
+      ],
+      "selected_epoch_per_seed": [
+        120.0,
+        210.0,
+        250.0,
+        125.0,
+        185.0,
+        130.0,
+        200.0,
+        160.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "_config": {
+    "dataset": "elliptic_samestep",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "levels": [
+      1.0
+    ],
+    "epochs": 300,
+    "window": 1.0,
+    "window_frac": 0.02,
+    "window_rounded_to_steps": true,
+    "lam_c": 1.0,
+    "frac_cells_split": 0.0,
+    "frac_cells_spanning_time": 0.0,
+    "temporal_arms_degenerate": true,
+    "n_temporal_cells": 300000,
+    "split_protocol": {
+      "0": "saved:stratified",
+      "1": "saved:stratified",
+      "2": "saved:stratified",
+      "3": "saved:stratified",
+      "4": "saved:stratified",
+      "5": "drawn:stratified",
+      "6": "drawn:stratified",
+      "7": "drawn:stratified"
+    },
+    "temporal_split": false,
+    "with_temporal_gnn": false
+  }
+}

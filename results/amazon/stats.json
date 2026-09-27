@@ -1,0 +1,14 @@
+{
+  "name": "amazon",
+  "num_nodes": 11944,
+  "num_labeled": 8639,
+  "fraud_rate": 0.09503414747077207,
+  "homo": {
+    "num_edges": 4417576,
+    "node_homophily": 0.8857576847076416,
+    "fraud_neighbor_heterophily": 0.8626032471656799
+  },
+  "candidates": {
+    "mean_fraud_purity": 0.2422373384117074
+  }
+}

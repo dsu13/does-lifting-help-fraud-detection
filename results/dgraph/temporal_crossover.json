@@ -1,0 +1,190 @@
+{
+  "A_features": {
+    "1": {
+      "mean": 0.021235498660583826,
+      "std": 0.001167622972495892,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.021563,
+        0.019939,
+        0.022204
+      ],
+      "auc_mean": 0.7031575613034211,
+      "auc_std": 0.0037008306847540516,
+      "aucs": [
+        0.705399,
+        0.698886,
+        0.705188
+      ],
+      "selected_epoch_per_seed": [
+        160.0,
+        195.0,
+        160.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "B_temporal_cols": {
+    "1": {
+      "mean": 0.02003234110320197,
+      "std": 0.0007812434794368996,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.019169,
+        0.020237,
+        0.020691
+      ],
+      "auc_mean": 0.6930359102489846,
+      "auc_std": 0.00653781753077961,
+      "aucs": [
+        0.687987,
+        0.700421,
+        0.6907
+      ],
+      "selected_epoch_per_seed": [
+        135.0,
+        120.0,
+        125.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "C_label_cells": {
+    "1": {
+      "mean": 0.021391058016736565,
+      "std": 0.000955051124463115,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.021631,
+        0.020339,
+        0.022204
+      ],
+      "auc_mean": 0.7053039639632203,
+      "auc_std": 0.004831635639400483,
+      "aucs": [
+        0.710596,
+        0.701128,
+        0.704188
+      ],
+      "active_cells_per_seed": [
+        97998.0,
+        140799.0,
+        122682.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.349624,
+        0.502316,
+        0.425487
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.934473,
+        0.91453,
+        0.962963
+      ],
+      "selected_epoch_per_seed": [
+        135.0,
+        135.0,
+        120.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "D_temporal_cells": {
+    "1": {
+      "mean": 0.02098833713264051,
+      "std": 0.0011503173172266177,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.021064,
+        0.019802,
+        0.022099
+      ],
+      "auc_mean": 0.7031029147780066,
+      "auc_std": 0.00400177601731956,
+      "aucs": [
+        0.705302,
+        0.698484,
+        0.705523
+      ],
+      "active_cells_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.101084,
+        0.094976,
+        0.0972
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_epoch_per_seed": [
+        135.0,
+        120.0,
+        130.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "_config": {
+    "dataset": "dgraph",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "levels": [
+      1.0
+    ],
+    "epochs": 300,
+    "window": 17.0,
+    "window_frac": 0.02,
+    "window_rounded_to_steps": true,
+    "lam_c": 1.0,
+    "frac_cells_split": 0.873944778528475,
+    "frac_cells_spanning_time": 0.775525858936574,
+    "temporal_arms_degenerate": false,
+    "n_temporal_cells": 173383,
+    "b_column_std": [
+      0.65939,
+      0.779888,
+      0.922282,
+      4.845393,
+      0.349573
+    ],
+    "split_protocol": {
+      "0": "saved:stratified",
+      "1": "saved:stratified",
+      "2": "saved:stratified"
+    },
+    "temporal_split": false,
+    "with_temporal_gnn": false
+  }
+}

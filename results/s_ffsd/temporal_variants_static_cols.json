@@ -1,0 +1,63 @@
+{
+  "B_static_cols": {
+    "1": {
+      "mean": 0.7101183258703112,
+      "std": 0.004904266914890923,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.71281,
+        0.713087,
+        0.704458
+      ],
+      "auc_mean": 0.8693095517626777,
+      "auc_std": 0.0038490531918756385,
+      "aucs": [
+        0.869571,
+        0.873021,
+        0.865337
+      ],
+      "selected_epoch_per_seed": [
+        255.0,
+        280.0,
+        180.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "_config": {
+    "dataset": "s_ffsd",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "levels": [
+      1.0
+    ],
+    "epochs": 300,
+    "window": 1558.0,
+    "window_frac": 0.02,
+    "window_rounded_to_steps": true,
+    "lam_c": 1.0,
+    "static_column_std": [
+      0.532542,
+      0.563956,
+      3.685869,
+      17712.734375,
+      0.22638
+    ],
+    "split_protocol": {
+      "0": "saved:stratified",
+      "1": "saved:stratified",
+      "2": "saved:stratified"
+    },
+    "temporal_split": false,
+    "with_temporal_gnn": false
+  }
+}

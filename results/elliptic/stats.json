@@ -1,0 +1,14 @@
+{
+  "name": "elliptic",
+  "num_nodes": 203769,
+  "num_labeled": 46564,
+  "fraud_rate": 0.09760759384932566,
+  "homo": {
+    "num_edges": 234355,
+    "node_homophily": 0.9491918683052063,
+    "fraud_neighbor_heterophily": 0.49033817648887634
+  },
+  "candidates": {
+    "mean_fraud_purity": 0.6768300312360085
+  }
+}

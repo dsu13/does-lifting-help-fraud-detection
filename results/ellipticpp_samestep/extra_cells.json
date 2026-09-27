@@ -1,0 +1,11 @@
+{
+  "mode": "same",
+  "k": 10,
+  "window": 1.0,
+  "static_cells": 203430,
+  "family_raw_cells": 203769,
+  "family_new_unique_cells": 179784,
+  "family_cells": 96570,
+  "matched_target": 96570,
+  "merged_cells": 300000
+}

@@ -1,0 +1,113 @@
+{
+  "B_temporal_cols": {
+    "1": {
+      "mean": 0.019116264685299297,
+      "std": 0.0004201251541542272,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.019348,
+        0.018631,
+        0.019369
+      ],
+      "auc_mean": 0.6907505821686802,
+      "auc_std": 0.004885545772548071,
+      "aucs": [
+        0.687151,
+        0.688789,
+        0.696312
+      ],
+      "selected_epoch_per_seed": [
+        130.0,
+        165.0,
+        160.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "D_temporal_cells": {
+    "1": {
+      "mean": 0.02086920868849797,
+      "std": 0.0011844566856399738,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.02098,
+        0.019633,
+        0.021995
+      ],
+      "auc_mean": 0.7003643419869118,
+      "auc_std": 0.005258217825557223,
+      "aucs": [
+        0.703735,
+        0.694305,
+        0.703053
+      ],
+      "active_cells_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.096368,
+        0.034432,
+        0.099815
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_epoch_per_seed": [
+        205.0,
+        165.0,
+        125.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "_config": {
+    "dataset": "dgraph",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "levels": [
+      1.0
+    ],
+    "epochs": 300,
+    "window": 9.0,
+    "window_frac": 0.01,
+    "window_rounded_to_steps": true,
+    "lam_c": 1.0,
+    "frac_cells_split": 0.8832185861817766,
+    "frac_cells_spanning_time": 0.6695071148690451,
+    "temporal_arms_degenerate": false,
+    "n_temporal_cells": 121225,
+    "b_column_std": [
+      0.594297,
+      0.675823,
+      0.982441,
+      2.571167,
+      0.335071
+    ],
+    "split_protocol": {
+      "0": "saved:stratified",
+      "1": "saved:stratified",
+      "2": "saved:stratified"
+    },
+    "temporal_split": false,
+    "with_temporal_gnn": false
+  }
+}

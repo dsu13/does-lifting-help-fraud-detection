@@ -1,0 +1,14 @@
+{
+  "name": "ethereum",
+  "num_nodes": 150000,
+  "num_labeled": 37739,
+  "fraud_rate": 0.030869922361482817,
+  "homo": {
+    "num_edges": 868149,
+    "node_homophily": 0.7261951565742493,
+    "fraud_neighbor_heterophily": 0.5617718696594238
+  },
+  "candidates": {
+    "mean_fraud_purity": 0.5926892840241509
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "yelpchi",
+  "num_nodes": 45954,
+  "num_labeled": 45954,
+  "fraud_rate": 0.14529747138442792,
+  "homo": {
+    "num_edges": 3846979,
+    "node_homophily": 0.7697790265083313,
+    "fraud_neighbor_heterophily": 0.8052875995635986
+  },
+  "candidates": {
+    "mean_fraud_purity": 0.20446411316485716
+  }
+}

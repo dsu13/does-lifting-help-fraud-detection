@@ -1,0 +1,113 @@
+{
+  "B_temporal_cols": {
+    "1": {
+      "mean": 0.31367534380281364,
+      "std": 0.0014180953248041327,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.312542,
+        0.313218,
+        0.315266
+      ],
+      "auc_mean": 0.8193144313872134,
+      "auc_std": 0.007983478136686038,
+      "aucs": [
+        0.828472,
+        0.813822,
+        0.815648
+      ],
+      "selected_epoch_per_seed": [
+        160.0,
+        205.0,
+        160.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "D_temporal_cells": {
+    "1": {
+      "mean": 0.31230978582421365,
+      "std": 0.010192195681600793,
+      "std_ddof": 1,
+      "n": 3,
+      "n_failed": 0,
+      "aps": [
+        0.307961,
+        0.323955,
+        0.305013
+      ],
+      "auc_mean": 0.8118807419732597,
+      "auc_std": 0.0018025864079627518,
+      "aucs": [
+        0.813833,
+        0.81028,
+        0.811529
+      ],
+      "active_cells_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_soft_a_per_seed": [
+        0.084887,
+        0.095676,
+        0.029472
+      ],
+      "frac_fraud_covered_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_epoch_per_seed": [
+        235.0,
+        220.0,
+        140.0
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "_config": {
+    "dataset": "ieee_cis",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "levels": [
+      1.0
+    ],
+    "epochs": 300,
+    "window": 786237.0,
+    "window_frac": 0.05,
+    "window_rounded_to_steps": true,
+    "lam_c": 1.0,
+    "frac_cells_split": 0.0,
+    "frac_cells_spanning_time": 0.999971355938272,
+    "temporal_arms_degenerate": false,
+    "n_temporal_cells": 279290,
+    "b_column_std": [
+      0.507994,
+      1.47183,
+      13.898291,
+      26624.693359,
+      0.307668
+    ],
+    "split_protocol": {
+      "0": "drawn:temporal",
+      "1": "drawn:temporal",
+      "2": "drawn:temporal"
+    },
+    "temporal_split": true,
+    "with_temporal_gnn": false
+  }
+}
