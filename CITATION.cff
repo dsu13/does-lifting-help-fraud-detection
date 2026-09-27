@@ -15,6 +15,7 @@ authors:
     given-names: "Jose Daniel"
     orcid: "https://orcid.org/0009-0001-0294-2275"
 license: MIT
+repository-code: "https://github.com/dsu13/does-lifting-help-fraud-detection"
 keywords:
   - topological deep learning
   - learnable liftings
