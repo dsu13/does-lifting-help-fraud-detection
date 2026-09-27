@@ -72,7 +72,7 @@ code also runs on CPU, much more slowly); the exact versions are listed in
 
 No dataset is redistributed here: each stays under its provider's terms. Every file goes
 into its own folder under `data/raw/`, as listed below. `python scripts/00_download_data.py`,
-the first step of `main.py`, downloads the five datasets that have a public link, skips
+the first step of `main.py`, downloads the six datasets that have a public link, skips
 those already in place, and prints the steps for the two that have to be fetched by hand.
 It stops with an error while any file is missing.
 
